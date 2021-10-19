@@ -1,0 +1,67 @@
+@keyframes loader{
+    0%{
+        opacity: 1;
+        visibility: visible;
+    }
+    95%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@keyframes scaling{
+    0%, 100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(.2);
+    }
+}
+@keyframes navbar {
+    0%{
+        transform: translateY(-200px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes main-content {
+    0%{
+        transform: translateY(-600px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+@keyframes side-text {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes side-img {
+    0%{
+        transform: translateY(120%);
+    }
+    70%{
+        transform: translateY(-300px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes footer {
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

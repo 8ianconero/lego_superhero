@@ -1,0 +1,43 @@
+.container{
+    position: absolute;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-template-rows: 20% 50% 30%;
+    grid-template-areas: "nav aside"
+                        "section aside"
+                        "footer aside";
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    grid-area: nav;
+    align-self: center;
+
+    &__content{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 0 0 0 80px;
+
+        animation: 2s navbar 0.5s ease-in-out;
+
+        img{
+            width: 50px;
+        }
+        ul{
+            display: flex;
+            justify-content: space-evenly;
+            list-style: none;
+            text-transform: uppercase;
+            padding: 0;
+            width: 450px;
+
+            li a{
+                color: var(--red);
+                font-weight: 300;
+                text-decoration: none;
+            }
+        }
+    }
+}
