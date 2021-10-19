@@ -1,3 +1,5 @@
+import './styles/styles.scss';
+
 const modal = document.querySelector('.modal')
 const closeIcon = document.querySelector('.modal-content__close')
 
